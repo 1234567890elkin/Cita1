@@ -1,24 +1,37 @@
 
 .footer {
+    width: calc(100% /3);
+    text-align: justify;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(61, 51, 51);
-    color: rgb(226, 221, 221);
-    text-align: center;
+    background-color: rgb(33, 33, 33);
+    color: rgb(185, 181, 181);
+    text-align: left;
+    font-size: 15px;
+    margin: 0px;
+    padding: 20px 40px;
+}
+
+.columna p {
+    margin: 1px 0;
+}
+
+.columna a {
+    margin: 1px 0;
+    color: #ffff;
 }
 
 .columna {
     width:33%;
     float:left;
-  }
+    padding: 10px;
+}
   
-  @media (max-width: 500px) {
-    
+@media (max-width: 500px) {
     .columna {
       width:auto;
       float:none;
     }
-    
-  }
+}
