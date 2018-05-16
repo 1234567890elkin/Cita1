@@ -1,8 +1,7 @@
 .container{
     padding: 10px;
     height: 200px;
- 
-    vertical-align: middle;
+    
 }
 
 .container h1{
@@ -13,10 +12,9 @@
     color:#FFff;
 }
 
-.container-hijo{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+.container article{
     vertical-align: middle;
+    text-align: center;
+
 }
+

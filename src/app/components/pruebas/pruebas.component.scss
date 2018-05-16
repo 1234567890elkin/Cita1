@@ -1,37 +1,15 @@
-
-.footer {
-    width: calc(100% /3);
-    text-align: justify;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(33, 33, 33);
-    color: rgb(185, 181, 181);
-    text-align: left;
-    font-size: 15px;
-    margin: 0px;
-    padding: 20px 40px;
+.container{
+    height: 500px;
+    vertical-align: middle;
+    text-justify: auto;
+    text-align: center;
+    padding: 30px;
 }
 
-.columna p {
-    margin: 1px 0;
-}
 
-.columna a {
-    margin: 1px 0;
-    color: #ffff;
-}
+.container h1{
+    text-align: center;
+    color: rgb(119, 111, 111);
+    padding: 500px;
 
-.columna {
-    width:33%;
-    float:left;
-    padding: 10px;
-}
-  
-@media (max-width: 500px) {
-    .columna {
-      width:auto;
-      float:none;
-    }
 }
